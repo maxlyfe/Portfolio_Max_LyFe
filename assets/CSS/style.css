@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ------------- */
+html{
+    scroll-behavior: smooth;
+}
+/* ------------- */
+body nav#menu{
+    background-color: #255371;
+    position: fixed;
+    width: 100%
+}
+/* ------------- */
+body nav#menu{
+    padding: .9rem;
+}
+/* ------------- */
+body nav#menu ul{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+body nav#menu ul li#max{
+    justify-content: flex-start;
+    padding: .7rem;
+    width: 1%;
+}
+nody nav#menu ul div#menu{
+    display: flex;
+    justify-content: center;
+}
+body nav#menu ul a{
+    padding-left: 3rem;
+    font-size: 300;
+}
+body nav#menu ul li#menu{
+    padding-left: 30%;
+}
+body header#portada section#presentacao{
+    width: 100%;
+}
+body header#portada{
+    background-image: url('../IMG/Fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+body header#portada img#eu{
+    border-radius: 50%;
+    width: 18%;
+    justify-content: flex-start; 
+    margin-left: 14rem;
+}
+body header#site{
+    background-image: url('../IMG/Fundo_degrade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+body header#site h2{
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    color: white; 
+    font-size: 900;
+}
+body header#site div#botoesProjetos{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+body header#site div#botoesProjetos section#blue{
+    padding: 2rem 3rem 3rem 3rem;
+}
+body header#site div#botoesProjetos section#conversor{
+    padding: 2rem 3rem 3rem 3rem;
+}
+body header#site div#botoesProjetos section#simulador{
+    padding: 2rem 3rem 3rem 3rem;
+}
+body header#site div#botoesProjetos section#blue button{
+    height: 200px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border-bottom: white;
+    border-color: white;
+    background-color: #193850;
+    color: white;
+    font-weight: 700;
+}
+body header#site div#botoesProjetos section#conversor button{
+    height: 200px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border-bottom: white;
+    border-color: white;
+    background-color: #193850;
+    color: white;
+    font-weight: 700;
+}
+body header#site div#botoesProjetos section#simulador button{
+    height: 200px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border-bottom: white;
+    border-color: white;
+    background-color: #193850;
+    color: white;
+    font-weight: 700;
+}
+body header#quemSou{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width:100%;
+    background-color: #193850;
+}
+body header#quemSou section#quemSouEu{
+    padding-top: 5rem;
+    display: block;
+    justify-content: auto;
+    margin-right: 200px;
+    margin-left:200px;
+}
+body header#quemSou section#quemSouEu h2{
+    margin-left: 240px;
+    width: 100%;
+    color: white;
+    padding-bottom: 4rem;
+    font-size: 900;
+}
+body header#quemSou section#quemSouEu p{
+    width: 100%;
+    color: white;
+    font-size: 100;
+    margin-right: 200px;
+    word-wrap: break-word;
+}
+body header#habilidades{
+    background-color: #193850;
+    height: 600px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+body header#habilidades section h2{
+    color: white;
+    font-size: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+body header#habilidades ul li{
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 13rem;
+    display: block;
+    justify-content: center;
+    color: white;
+}
+body header#habilidades ul li div#python span#python{
+    margin-left: 5rem;
+}
