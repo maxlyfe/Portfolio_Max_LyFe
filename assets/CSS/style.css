@@ -7,12 +7,17 @@
 /* ------------- */
 html{
     scroll-behavior: smooth;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+
 }
 /* ------------- */
 body nav#menu{
     background-color: #255371;
     position: fixed;
-    width: 100%
+    width: 100%;
 }
 /* ------------- */
 body nav#menu{
@@ -27,7 +32,7 @@ body nav#menu ul{
 body nav#menu ul li#max{
     justify-content: flex-start;
     padding: .7rem;
-    width: 1%;
+    width: 10%;
 }
 nody nav#menu ul div#menu{
     display: flex;
@@ -42,22 +47,23 @@ body nav#menu ul li#menu{
 }
 body header#portada section#presentacao{
     width: 100%;
+
 }
 body header#portada{
+    width: 120%;
+    height: 600px;
     background-image: url('../IMG/Fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
-    height: 600px;
-    width: 100%;
     display: flex;
 }
 body header#portada img#eu{
     border-radius: 50%;
-    width: 18%;
+    width: 15%;
     justify-content: flex-start; 
-    margin-left: 14rem;
+    margin-left: 23rem;
 }
 body header#site{
     background-image: url('../IMG/Fundo_degrade.png');
@@ -65,11 +71,12 @@ body header#site{
     background-size: cover;
     background-position: center;
     height: 600px;
-    width: 100%;
+    width: 120%;
     display: block;
 }
 body header#site h2{
     padding-top: 5rem;
+    margin-left: 4rem;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -78,6 +85,7 @@ body header#site h2{
 }
 body header#site div#botoesProjetos{
     padding-top: 3rem;
+    margin-left: 8rem;
     display: flex;
     justify-content: center;
 }
@@ -133,7 +141,7 @@ body header#quemSou{
     display: flex;
     justify-content: center;
     height: 600px;
-    width:100%;
+    width:120%;
     background-color: #193850;
 }
 body header#quemSou section#quemSouEu{
@@ -141,10 +149,10 @@ body header#quemSou section#quemSouEu{
     display: block;
     justify-content: auto;
     margin-right: 200px;
-    margin-left:200px;
+    margin-left:410px;
 }
 body header#quemSou section#quemSouEu h2{
-    margin-left: 240px;
+    margin-left: 350px;
     width: 100%;
     color: white;
     padding-bottom: 4rem;
@@ -160,25 +168,147 @@ body header#quemSou section#quemSouEu p{
 body header#habilidades{
     background-color: #193850;
     height: 600px;
-    width: 100%;
+    width: 120%;
     display: block;
     justify-content: center;
 }
 body header#habilidades section h2{
     color: white;
     font-size: 900;
+    margin-left: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+body header#habilidades ul p{
+    padding: 1.2rem;
+}
 body header#habilidades ul li{
     width: 100%;
     margin-top: 4rem;
-    margin-left: 13rem;
+    margin-left: 35rem;
     display: block;
     justify-content: center;
     color: white;
 }
-body header#habilidades ul li div#python span#python{
+body header#habilidades ul li div#python span#borda{
+    margin-top: 1.5rem;
     margin-left: 5rem;
+    background-color: #fff;
+    padding: .4rem;
+    padding-right: 421px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#python span#borda span#python{
+    background: #193850;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    padding-right: 279px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#HTML span#borda{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    background-color: #fff;
+    padding: .4rem;
+    padding-right: 545px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#HTML span#borda span#HTML{
+    background: #193850;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    padding-right: 155px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#CSS span#borda{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    background-color: #fff;
+    padding: .4rem;
+    padding-right: 538px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#CSS span#borda span#CSS{
+    background: #193850;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    padding-right: 162px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#JS span#borda{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    background-color: #fff;
+    padding: .4rem;
+    padding-right: 689px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#JS span#borda span#JS{
+    background: #193850;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    padding-right: 11px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#Jupyter span#borda{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    background-color: #fff;
+    padding: .4rem;
+    padding-right: 607px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body header#habilidades ul li div#Jupyter span#borda span#Jupyter{
+    background: #193850;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    padding-right: 93px;
+    border-radius: 1rem;
+    width: 100%;
+}
+body footer {
+    margin: 0;
+    height: 600px;
+    width: 120%;
+    background-color: #193850;
+}
+body footer section#contato {
+    display: block;
+    margin: auto;
+}
+body footer section#contato h2{
+    color: #fff;
+    margin-left: 58rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+body footer#contato div#icons{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+}
+body footer#contato div#icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+    padding: 2rem;
+    transition: all .4s ease-in-out;
+}
+body footer#contato div#icons a:hover{
+    color: aqua;
 }
